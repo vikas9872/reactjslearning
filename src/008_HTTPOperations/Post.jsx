@@ -33,7 +33,7 @@ const Post = () => {
     return (
         <div className="form-container">
             <form className="form" onSubmit={handleSubmit}>
-                <h2>Create Post</h2>
+                <h2>POST</h2>
 
                 <div className="form-group">
                     <label>User ID:</label>

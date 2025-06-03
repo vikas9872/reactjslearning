@@ -13,7 +13,7 @@ const Post = () => {
     }, []);
     return (
         <div>
-            <h2>Posts</h2>
+            <h2>GET</h2>
             <ul>
                 {postData.map(post => (
                     <li key={post.id}>
