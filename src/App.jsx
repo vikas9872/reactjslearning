@@ -4,6 +4,9 @@ import Props from './002_Props/Props'
 import Destructuring from './003_Destructuring/Destructuring'
 import UseStateHook from './003_Hooks/01_UseStateHook/UseStateHook'
 import UseStateHookWithPrev from './003_Hooks/01_UseStateHook/UseStateHookWithPrev'
+import UseRef from './003_Hooks/02_UseRefHook/UseRef'
+import AfterEveryRender from './003_Hooks/03_UseEffectHook/AfterEveryRender'
+import AfterFirstRender from './003_Hooks/03_UseEffectHook/AfterFirstRender'
 import IfelseRendering from './004_ConditionalRendering/IfelseRendering'
 import TernaryRendering from './004_ConditionalRendering/TernaryRendering'
 import ListRendering from './005_ListRendering/ListRendering'
@@ -29,7 +32,13 @@ function App() {
       <hr />
       <UseStateHook />
       <hr />
-      <UseStateHookWithPrev/>
+      <UseStateHookWithPrev />
+      <hr />
+      <UseRef />
+      <hr />
+      <AfterEveryRender />
+      <hr />
+      <AfterFirstRender />
       <hr />
       <IfelseRendering />
       <hr />
